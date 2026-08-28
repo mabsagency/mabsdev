@@ -303,7 +303,7 @@
 	.stack-section .round-arrow,.certification-card .round-arrow { font-size:0; background-image:url('/image/arrow-right.svg'); background-position:center; background-repeat:no-repeat; background-size:18px; }
 	.contribution-card .round-arrow { font-size:0; background-color:var(--orange); background-image:url('/image/arrow-right-dark.svg'); background-position:center; background-repeat:no-repeat; background-size:18px; }
 	.header-cta span,.button span,.text-link span,.contact-mail span { display:inline-block; width:18px; height:18px; margin-left:6px; font-size:0; background:url('/image/arrow-right.svg') center/contain no-repeat; vertical-align:middle; }
-	.cv-download-icon { font-size:0; background:url('/image/arrow-right.svg') center/18px no-repeat; transform:rotate(90deg); }
+	.cv-download-icon { font-size:0; background:url('/image/arrow-right-dark.svg') center/18px no-repeat; transform:rotate(90deg); }
 }
 
 @media (max-width:700px) and (prefers-reduced-motion:reduce) {
