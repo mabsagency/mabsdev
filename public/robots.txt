@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://mabscode.vercel.app/sitemap.xml
