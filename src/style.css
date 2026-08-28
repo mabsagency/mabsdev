@@ -294,8 +294,12 @@
 	.project-grid .project-detail { display:block; margin-top:12px; color:#111; font-size:11px; line-height:1.45; }
 	.project-grid .round-arrow { align-self:flex-start; width:auto; min-width:0; height:44px; padding:0 16px; border:1px solid #111; border-radius:3px; background:#111; color:#fff; box-shadow:3px 3px 0 var(--orange); font-size:0; font-weight:700; }
 	.project-grid .round-arrow::before { content:'Voir le projet'; font:700 11px var(--mono); }
-	.project-grid .round-arrow::after { content:'  →'; font:700 16px var(--mono); }
+	.project-grid .round-arrow::after { content:''; display:inline-block; width:9px; height:9px; margin-left:11px; border-top:2px solid currentColor; border-right:2px solid currentColor; transform:rotate(45deg); }
 	.project-grid .round-arrow:hover { background:var(--orange); border-color:var(--orange); color:#fff; box-shadow:3px 3px 0 #111; transform:translateY(-2px); }
+	.carousel-arrow { font-size:0; }
+	.carousel-arrow::before { content:''; display:block; width:10px; height:10px; border-top:2px solid currentColor; border-right:2px solid currentColor; }
+	.carousel-previous::before { transform:rotate(-135deg); margin-left:4px; }
+	.carousel-next::before { transform:rotate(45deg); margin-right:4px; }
 }
 
 @media (max-width:700px) and (prefers-reduced-motion:reduce) {
