@@ -32,8 +32,8 @@ const translations = {
     contribution_h2_part2: 'aller plus loin.',
     contribution_intro: 'Un projet d’équipe où chaque compétence contribue à une expérience plus forte.',
     about_eyebrow: '01 / À propos de Mabs Dev',
-    about_h2_part1: 'Le beau, c\'est bien.',
-    about_h2_part2: 'Le juste, c\'est mieux.',
+    about_h2_part1: 'Le beau attire.',
+    about_h2_part2: 'L’efficacité convainc.',
     about_text: 'J\'aime les interfaces qui ont une voix. Mon approche mélange curiosité, précision et une obsession pour les détails qui font la différence.',
     certif_eyebrow: '05 / Certifications',
     certif_h2_part1: 'Des preuves',
@@ -49,8 +49,8 @@ const translations = {
     stack_h2_part2: 'pour créer.',
     stack_text: 'Une boîte à outils pensée pour passer d\'une idée claire à une expérience qui fonctionne vraiment.',
     stack_signature: 'MABS DEV / TOOLKIT 2026',
-    stack_metric_tools: '09 outils',
-    stack_metric_domains: '04 domaines',
+    stack_metric_tools: 'outils',
+    stack_metric_domains: 'domaines',
     stack_metric_focus: '100% curiosité',
     skill_desc_figma: 'Outil de conception d\'interfaces : créer des maquettes, des prototypes interactifs et des composants réutilisables en équipe.',
     skill_desc_flutter: 'Framework Google basé sur Dart : développer une même interface pour Android, iOS, le web et le desktop avec un rendu natif.',
@@ -66,7 +66,7 @@ const translations = {
     skill_desc_react: 'Bibliothèque JavaScript d\'interface : composer des écrans réutilisables avec des composants, gérer leur état et construire des expériences interactives.',
     contact_eyebrow: '07 / On commence ?',
     contact_h2_part1: 'Un projet en tête ?',
-    contact_h2_part2: 'Faisons-le exister.',
+    contact_h2_part2: 'Matérialisons-le.',
     contact_footer_copyright: '© 2026 MABS DEV',
     contact_footer_social: 'Instagram&nbsp; / &nbsp;LinkedIn&nbsp; / &nbsp;GitHub',
     contact_footer_motto: 'Fait avec intention.',
@@ -87,6 +87,7 @@ const translations = {
     project_desc_fos: 'Conseil · Site institutionnel',
     project_desc_afri_flow: 'Expérience digitale · Plateforme web',
     project_desc_docu_ai: 'Documents intelligents · Application web',
+    project_desc_nicenail: 'Beauté des ongles · Site vitrine salon',
     project_label_burger: 'Burger premium / 2026',
     project_label_bronuts: 'Desserts artisanaux / Douala',
     project_label_mused: 'AI moodboards / 2024',
@@ -94,6 +95,7 @@ const translations = {
     project_label_fos: 'Consulting / 2026',
     project_label_afri_flow: 'Plateforme web / 2026',
     project_label_docu_ai: 'AI document tools / 2026',
+    project_label_nicenail: 'Salon beauté / 2026',
     contribution_type_mused: 'Projet d’équipe · Produit digital',
     contribution_desc_mused: 'Recherche, direction UI et expérience moodboard assistée par IA.',
     contribution_type_secel: 'Projet d’équipe · Site vitrine',
@@ -107,6 +109,18 @@ const translations = {
     certification_name: 'Certification Mabs Dev',
     certification_open: 'Afficher la certification',
     certification_hint: 'Cliquer sur la flèche pour agrandir',
+    mobile_eyebrow: '03 / Sélection · Mobile',
+    mobile_h2: 'Mes <em>apps</em> mobiles',
+    mobile_intro: 'Des interfaces pensées pour des usages concrets, rapides et agréables sur mobile.',
+    mobile_taskflow_title: 'TaskFlow',
+    mobile_taskflow_desc: 'App de productivité pour organiser sa journée et suivre ses habitudes.',
+    mobile_taskflow_chip: 'Flutter',
+    mobile_mabspay_title: 'MabsPay',
+    mobile_mabspay_desc: 'Expérience mobile pour les paiements rapides et les suivis de transactions.',
+    mobile_mabspay_chip: 'UI / UX',
+    mobile_mabshop_title: 'MabShop',
+    mobile_mabshop_desc: 'Prototype e-commerce mobile pensé pour la conversion, la simplicité et le trust.',
+    mobile_mabshop_chip: 'Prototype',
   },
   en: {
     nav_projects: 'Projects',
@@ -138,8 +152,8 @@ const translations = {
     contribution_h2_part2: 'go further.',
     contribution_intro: 'A team project where every skill contributes to a stronger experience.',
     about_eyebrow: '01 / About Mabs Dev',
-    about_h2_part1: 'Beauty is good.',
-    about_h2_part2: 'Justice is better.',
+    about_h2_part1: 'Beautiful gets attention.',
+    about_h2_part2: 'Effective drives results.',
     about_text: 'I love interfaces that have a voice. My approach blends curiosity, precision and an obsession with details that make the difference.',
     certif_eyebrow: '05 / Certifications',
     certif_h2_part1: 'Proofs',
@@ -155,8 +169,8 @@ const translations = {
     stack_h2_part2: 'to create.',
     stack_text: 'A toolkit designed to go from a clear idea to an experience that really works.',
     stack_signature: 'MABS DEV / TOOLKIT 2026',
-    stack_metric_tools: '09 tools',
-    stack_metric_domains: '04 domains',
+    stack_metric_tools: 'tools',
+    stack_metric_domains: 'domains',
     stack_metric_focus: '100% curiosity',
     skill_desc_figma: 'Interface design tool: create mockups, interactive prototypes and reusable components collaboratively.',
     skill_desc_flutter: 'Google framework built on Dart: ship one interface for Android, iOS, web and desktop with a native-rendered UI.',
@@ -172,7 +186,7 @@ const translations = {
     skill_desc_react: 'JavaScript UI library: compose reusable screens with components, manage their state and build interactive experiences.',
     contact_eyebrow: '07 / Ready to start?',
     contact_h2_part1: 'Got a project in mind?',
-    contact_h2_part2: 'Let\'s make it happen.',
+    contact_h2_part2: 'Let\'s materialize it.',
     contact_footer_copyright: '© 2026 MABS DEV',
     contact_footer_social: 'Instagram&nbsp; / &nbsp;LinkedIn&nbsp; / &nbsp;GitHub',
     contact_footer_motto: 'Made with intention.',
@@ -193,6 +207,7 @@ const translations = {
     project_desc_fos: 'Consulting · Institutional website',
     project_desc_afri_flow: 'Digital experience · Web platform',
     project_desc_docu_ai: 'Smart documents · Web application',
+    project_desc_nicenail: 'Nail beauty · Premium salon showcase',
     project_label_burger: 'Premium burger / 2026',
     project_label_bronuts: 'Artisan desserts / Douala',
     project_label_mused: 'AI moodboards / 2024',
@@ -200,6 +215,7 @@ const translations = {
     project_label_fos: 'Consulting / 2026',
     project_label_afri_flow: 'Web platform / 2026',
     project_label_docu_ai: 'AI document tools / 2026',
+    project_label_nicenail: 'Beauty salon / 2026',
     contribution_type_mused: 'Team project · Digital product',
     contribution_desc_mused: 'Research, UI direction and AI-assisted moodboard experience.',
     contribution_type_secel: 'Team project · Showcase website',
@@ -213,6 +229,18 @@ const translations = {
     certification_name: 'Mabs Dev certification',
     certification_open: 'View certification',
     certification_hint: 'Click the arrow to enlarge',
+    mobile_eyebrow: '03 / Selection · Mobile',
+    mobile_h2: 'My <em>mobile</em> apps',
+    mobile_intro: 'Interfaces designed for real use cases, fast and enjoyable on mobile.',
+    mobile_taskflow_title: 'TaskFlow',
+    mobile_taskflow_desc: 'Productivity app to organize your day and track your habits.',
+    mobile_taskflow_chip: 'Flutter',
+    mobile_mabspay_title: 'MabsPay',
+    mobile_mabspay_desc: 'Mobile experience for fast payments and transaction tracking.',
+    mobile_mabspay_chip: 'UI / UX',
+    mobile_mabshop_title: 'MabShop',
+    mobile_mabshop_desc: 'Mobile e-commerce prototype designed for conversion, simplicity and trust.',
+    mobile_mabshop_chip: 'Prototype',
   }
 }
 
@@ -292,27 +320,73 @@ function setupDOMListeners() {
   })
 
   const projectDetails = [
-    { title: 'BURGER', description: t('project_desc_burger'), detail: currentLang === 'fr' ? 'Direction UI et intégration · Parcours de commande clair.' : 'UI direction and integration · Clear ordering journey.', tech: 'HTML · CSS · JavaScript · React', label: t('project_label_burger'), image: '/image/burger.jpg', alt: 'Burger premium avec fromage et garniture fraîche', url: 'https://burgerlab-premium.vercel.app/' },
-    { title: 'Bronuts', description: t('project_desc_bronuts'), detail: currentLang === 'fr' ? 'Conception e-commerce · Mise en valeur des produits artisanaux.' : 'E-commerce design · Bringing artisan products forward.', tech: 'HTML · CSS · JavaScript · React', label: t('project_label_bronuts'), image: '/image/bronuts.jpg', alt: 'Brownies et donuts artisanaux Bronuts', url: 'https://bronuts-tan.vercel.app' },
-    { title: 'Mused', description: t('project_desc_mused'), detail: currentLang === 'fr' ? 'Recherche et expérience UI · Accélérer la création de moodboards.' : 'Research and UI experience · Speeding up moodboard creation.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_mused'), image: '/image/mused.jpg', alt: 'Moodboard minimaliste créé avec Mused', url: 'https://mused-tau.vercel.app' },
-    { title: 'SECEL', description: t('project_desc_secel'), detail: currentLang === 'fr' ? 'Conception et développement · Clarifier la présence digitale.' : 'Design and development · Clarifying the digital presence.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_secel'), image: '/image/secel.png', alt: 'Interface du site vitrine SECEL', url: 'https://secel.vercel.app/' },
-    { title: 'FOS Consulting', description: t('project_desc_fos'), detail: currentLang === 'fr' ? 'Structure de contenu et UI · Renforcer la crédibilité du cabinet.' : 'Content structure and UI · Strengthening the consultancy\'s credibility.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_fos'), image: '/image/fos.jpg', alt: 'Bureau avec documents pour FOS Consulting', url: 'https://fos-consulting.vercel.app/' },
-    { title: 'Afri Flow', description: t('project_desc_afri_flow'), detail: currentLang === 'fr' ? 'Architecture produit et interface · Simplifier l’accès à la plateforme.' : 'Product architecture and interface · Simplifying platform access.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_afri_flow'), image: '/image/afriflow.png', alt: 'Interface de la plateforme digitale Afri Flow', url: 'https://afri-flow-t1hz.vercel.app/' },
-    { title: 'Docu AI', description: t('project_desc_docu_ai'), detail: currentLang === 'fr' ? 'Conception d’outil web · Automatiser la gestion documentaire.' : 'Web tool design · Automating document management.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_docu_ai'), image: '/image/docu.jpg', alt: 'Documents professionnels et ordinateur pour le projet Docu AI', url: 'https://docu-ai-ten.vercel.app/' },
+    { slug: 'burger', title: 'BURGER', description: t('project_desc_burger'), detail: currentLang === 'fr' ? 'Direction UI et intégration · Parcours de commande clair.' : 'UI direction and integration · Clear ordering journey.', tech: 'HTML · CSS · JavaScript · React', label: t('project_label_burger'), image: '/image/burger.jpg', alt: 'Burger premium avec fromage et garniture fraîche', url: 'https://burgerlab-premium.vercel.app/' },
+    { slug: 'bronuts', title: 'Bronuts', description: t('project_desc_bronuts'), detail: currentLang === 'fr' ? 'Conception e-commerce · Mise en valeur des produits artisanaux.' : 'E-commerce design · Bringing artisan products forward.', tech: 'HTML · CSS · JavaScript · React', label: t('project_label_bronuts'), image: '/image/bronuts.jpg', alt: 'Brownies et donuts artisanaux Bronuts', url: 'https://bronuts-tan.vercel.app' },
+    { slug: 'mused', title: 'Mused', description: t('project_desc_mused'), detail: currentLang === 'fr' ? 'Recherche et expérience UI · Accélérer la création de moodboards.' : 'Research and UI experience · Speeding up moodboard creation.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_mused'), image: '/image/mused.png', alt: 'Moodboard minimaliste créé avec Mused', url: 'https://mused-tau.vercel.app' },
+    { slug: 'secel', title: 'SECEL', description: t('project_desc_secel'), detail: currentLang === 'fr' ? 'Conception et développement · Clarifier la présence digitale.' : 'Design and development · Clarifying the digital presence.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_secel'), image: '/image/secel.png', alt: 'Interface du site vitrine SECEL', url: 'https://secel.vercel.app/' },
+    { slug: 'fos', title: 'FOS Consulting', description: t('project_desc_fos'), detail: currentLang === 'fr' ? 'Structure de contenu et UI · Renforcer la crédibilité du cabinet.' : 'Content structure and UI · Strengthening the consultancy\'s credibility.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_fos'), image: '/image/fos.jpg', alt: 'Bureau avec documents pour FOS Consulting', url: 'https://fos-consulting.vercel.app/' },
+    { slug: 'afri-flow', title: 'Afri Flow', description: t('project_desc_afri_flow'), detail: currentLang === 'fr' ? 'Architecture produit et interface · Simplifier l’accès à la plateforme.' : 'Product architecture and interface · Simplifying platform access.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_afri_flow'), image: '/image/afriflow.png', alt: 'Interface de la plateforme digitale Afri Flow', url: 'https://afri-flow-t1hz.vercel.app/' },
+    { slug: 'docu-ai', title: 'Docu AI', description: t('project_desc_docu_ai'), detail: currentLang === 'fr' ? 'Conception d’outil web · Automatiser la gestion documentaire.' : 'Web tool design · Automating document management.', tech: 'Next.js · HTML · CSS · JavaScript · SQL', label: t('project_label_docu_ai'), image: '/image/docu.jpg', alt: 'Documents professionnels et ordinateur pour le projet Docu AI', url: 'https://docu-ai-ten.vercel.app/' },
+    { slug: 'nice-nails', title: 'Nice Nails', description: t('project_desc_nicenail'), detail: currentLang === 'fr' ? 'Branding visuel et expérience salon · Mettre en valeur les soins beauté.' : 'Visual branding and salon experience · Highlighting beauty services.', tech: 'Next.js · HTML · CSS · JavaScript', label: t('project_label_nicenail'), image: 'https://nicenail.vercel.app/assets/m1.jpg', alt: 'Manucure élégante et design beauté Nice Nails', url: 'https://nicenail.vercel.app/' },
   ]
 
-  const secondProjectPage = document.querySelectorAll('.project-page')[1]
-  const secondProjectGrid = secondProjectPage?.querySelector('.project-grid')
-  if (secondProjectGrid && !secondProjectGrid.querySelector('[data-project="afri-flow"]')) {
-    secondProjectGrid.insertAdjacentHTML('beforeend', '<article class="project reveal" data-project="afri-flow"><div class="project-visual visual-two"><span class="visual-word">AFRI FLOW</span><span class="visual-caption">Plateforme web / 2026</span></div><div class="project-meta"><div><h3>Afri Flow</h3><p>Expérience digitale · Plateforme web</p></div><a class="round-arrow" href="https://afri-flow-t1hz.vercel.app/" aria-label="Voir le projet Afri Flow">↗</a></div></article>')
-  }
-  if (secondProjectGrid && !secondProjectGrid.querySelector('[data-project="docu-ai"]')) {
-    secondProjectGrid.insertAdjacentHTML('beforeend', '<article class="project reveal" data-project="docu-ai"><div class="project-visual visual-three"><span class="visual-word">DOCU AI</span><span class="visual-caption">AI document tools / 2026</span></div><div class="project-meta"><div><h3>Docu AI</h3><p>Documents intelligents · Application web</p></div><a class="round-arrow" href="https://docu-ai-ten.vercel.app/" aria-label="Voir le projet Docu AI">↗</a></div></article>')
+  const projectDetailsMap = new Map(projectDetails.map((project) => [project.slug, project]))
+  const projectPageConfig = [
+    ['burger', 'bronuts', 'mused'],
+    ['secel', 'fos', 'afri-flow', 'docu-ai'],
+    ['nice-nails']
+  ]
+
+  const projectPagesContainer = document.querySelector('.project-pages')
+  if (projectPagesContainer) {
+    while (projectPagesContainer.querySelectorAll('.project-page').length < 3) {
+      const page = document.createElement('div')
+      page.className = 'project-page'
+      page.innerHTML = '<div class="project-grid"></div>'
+      projectPagesContainer.appendChild(page)
+    }
   }
 
-  document.querySelectorAll('.project').forEach((project, index) => {
-    const details = projectDetails[index]
-    project.dataset.number = String(index + 1).padStart(2, '0')
+  document.querySelectorAll('.project-page').forEach((page, pageIndex) => {
+    const grid = page.querySelector('.project-grid')
+    const projectSlugs = projectPageConfig[pageIndex] ?? []
+    if (!grid || !projectSlugs.length) return
+
+    grid.innerHTML = projectSlugs.map((slug) => {
+      const detail = projectDetailsMap.get(slug)
+      if (!detail) return ''
+
+      const visualClass = slug === 'burger'
+        ? 'visual-one'
+        : slug === 'bronuts' || slug === 'afri-flow'
+          ? 'visual-two'
+          : slug === 'mused' || slug === 'fos' || slug === 'docu-ai'
+            ? 'visual-three'
+            : 'visual-one'
+
+      return `
+        <article class="project reveal${slug === 'burger' ? ' project-large' : ''}" data-project="${slug}">
+          <div class="project-visual ${visualClass}">
+            <span class="visual-word">${detail.title.toUpperCase()}</span>
+            <span class="visual-caption">${detail.label}</span>
+          </div>
+          <div class="project-meta">
+            <div>
+              <h3>${detail.title}</h3>
+              <p>${detail.description}</p>
+            </div>
+            <a class="round-arrow" href="${detail.url}" target="_blank" rel="noopener noreferrer" aria-label="Voir le projet ${detail.title}">↗</a>
+          </div>
+        </article>
+      `
+    }).join('')
+  })
+
+  document.querySelectorAll('.project').forEach((project) => {
+    const details = projectDetailsMap.get(project.dataset.project)
+    if (!details) return
+
+    project.dataset.number = String(project.dataset.project).padStart(2, '0')
     project.classList.toggle('project-fos', details.title === 'FOS Consulting')
     const visual = project.querySelector('.project-visual')
     const title = project.querySelector('.project-meta h3')
@@ -352,7 +426,7 @@ function setupDOMListeners() {
   
 
   const main = document.querySelector('main')
-  ;['about', 'stack', 'work', 'contributions', 'certifications', 'cv', 'contact', 'legal'].forEach((sectionId) => {
+  ;['about', 'stack', 'work', 'mobile-apps', 'contributions', 'certifications', 'cv', 'contact', 'legal'].forEach((sectionId) => {
     const section = document.getElementById(sectionId)
     if (section) main.appendChild(section)
   })
@@ -419,7 +493,8 @@ function setupDOMListeners() {
     const nextPage = currentProjectPage + direction
     if (nextPage < 1 || nextPage > projectGroups.length) return
     currentProjectPage = nextPage
-    projectPages.style.transform = `translateX(-${(currentProjectPage - 1) * 50}%)`
+    const offsetPercent = ((currentProjectPage - 1) / projectGroups.length) * 100
+    projectPages.style.transform = `translateX(-${offsetPercent}%)`
     updateProjectControls()
   }
   previousProject.addEventListener('click', () => moveProjects(-1))
