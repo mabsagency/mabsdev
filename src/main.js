@@ -251,13 +251,15 @@ function renderContent() {
   document.querySelector('#app').innerHTML = `
   <a class="skip-link" href="#work">${t('skip_to_content')}</a>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Mabs Dev, accueil"><img class="brand-mark" src="/image/mabou2.webp" alt="Mabs Dev" width="40" height="40"><strong>&lt;MABS<span> DEV/&gt;</span></strong></a>
-    <nav class="desktop-nav" id="site-nav" aria-label="${t('nav_label')}"><a href="#about">${t('nav_expertise')}</a><a href="#stack">${t('nav_stack')}</a><a href="#work">${t('nav_projects')}</a><a href="#certifications">${t('nav_certifications')}</a><a href="#cv">${t('nav_cv')}</a><a href="#contact">${t('nav_contact')}</a></nav>
-    <div class="header-actions">
-      <a class="header-cta" href="#contact">${t('header_cta')} <span>↗</span></a>
-      <button class="lang-toggle" aria-label="Toggle language">${currentLang === 'fr' ? 'EN' : 'FR'}</button>
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Mabs Dev, accueil"><img class="brand-mark" src="/image/mabou2.webp" alt="Mabs Dev" width="40" height="40"><strong>&lt;MABS<span> DEV/&gt;</span></strong></a>
+      <nav class="desktop-nav" id="site-nav" aria-label="${t('nav_label')}"><a href="#about">${t('nav_expertise')}</a><a href="#stack">${t('nav_stack')}</a><a href="#work">${t('nav_projects')}</a><a href="#certifications">${t('nav_certifications')}</a><a href="#cv">${t('nav_cv')}</a><a href="#contact">${t('nav_contact')}</a></nav>
+      <div class="header-actions">
+        <a class="header-cta" href="#contact">${t('header_cta')} <span>↗</span></a>
+        <button class="lang-toggle" aria-label="Toggle language">${currentLang === 'fr' ? 'EN' : 'FR'}</button>
+      </div>
+      <button class="menu-toggle" aria-label="${t('menu_open')}" aria-controls="site-nav" aria-expanded="false"><span></span><span></span></button>
     </div>
-    <button class="menu-toggle" aria-label="${t('menu_open')}" aria-controls="site-nav" aria-expanded="false"><span></span><span></span></button>
   </header>
   <main id="top">
     <section class="hero section-pad"><div class="hero-copy reveal"><p class="eyebrow"><span class="eyebrow-dot"></span> ${t('hero_eyebrow')}</p><h1>${t('hero_h1_part1')}<br><em>${t('hero_h1_part2')}</em><br>${t('hero_h1_part3')}</h1><p class="hero-text">${t('hero_text')}</p><div class="hero-actions"><a class="button button-dark" href="#work">${t('hero_btn_projects')} <span>↘</span></a><a class="text-link" href="#contact">${t('hero_btn_contact')} <span>↗</span></a></div><div class="hero-socials"><a href="https://instagram.com" aria-label="Instagram" class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a><a href="https://linkedin.com" aria-label="LinkedIn" class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.8H2.8V21h2.4V8.8ZM4 3a1.9 1.9 0 1 0 0 3.8A1.9 1.9 0 0 0 4 3ZM8.6 8.8H11v1.7h.1c.3-.7 1.3-2 3.7-2 3 0 3.5 2 3.5 4.7V21h-2.4v-6.9c0-1.6 0-3.6-2.2-3.6s-2.5 1.7-2.5 3.5V21H8.6V8.8Z" fill="currentColor"/></svg></a><a href="https://github.com" aria-label="GitHub" class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 0 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.7-1.4-2.2-.3-4.5-1.1-4.5-4.8 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.7-2.3 4.5-4.5 4.8.4.4.7 1 .7 2v2.7c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.5Z" fill="currentColor"/></svg></a></div></div><div class="hero-art reveal reveal-delay" aria-label="Portrait abstrait de Mabs Dev"><div class="art-grid"></div><div class="art-circle"></div></div></section>
